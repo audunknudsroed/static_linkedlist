@@ -28,6 +28,6 @@ void catcaharoo(void)
 {
 	
 	int one = 16;
-	int two = 4;
+	int two = 3;
 	int three = one + two;
 }
