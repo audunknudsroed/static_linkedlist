@@ -10,6 +10,7 @@ enum status {
 #include <stdio.h>
 
 void catcaharoo(void);
+void catcharee(void);
 
 void main(void)
 {
@@ -22,6 +23,7 @@ void main(void)
 			break;
 	}
 	catcaharoo();
+	catcharee();
 }
 
 void catcaharoo(void)
@@ -30,4 +32,11 @@ void catcaharoo(void)
 	int one = 16;
 	int two = 3;
 	int three = one + two;
+}
+
+void catcharee(void)
+{
+	int one = 16;
+	int two = 4;
+	int three = one + two;	
 }
