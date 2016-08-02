@@ -9,6 +9,8 @@ enum status {
 
 #include <stdio.h>
 
+void catcaharoo(void);
+
 void main(void)
 {
 	PKT_STATUS lal = ACKD;
@@ -19,4 +21,13 @@ void main(void)
 		default:
 			break;
 	}
+	catcaharoo();
+}
+
+void catcaharoo(void)
+{
+	
+	int one = 16;
+	int two = 4;
+	int three = one + two;
 }
